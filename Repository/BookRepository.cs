@@ -25,7 +25,7 @@ namespace E_Library.Repository
         /// выбор всех объектов
         /// </summary>
         /// <returns></returns>
-        public List<Book> SelectAllUsers()
+        public List<Book> SelectAllBooks()
         {
             return db.Books.ToList();
         }
